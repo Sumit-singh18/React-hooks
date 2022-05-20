@@ -8,6 +8,7 @@ const Usestate = () => {
     value === "Sumit Kumar"
       ? setmyName("Sumit Singh")
       : setmyName("Sumit Kumar");
+      
   };
 
   return (

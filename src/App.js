@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Usestate from './Components/usestate';
+import UseStateWObject from './Components/UseStateWObject';
+
 function App() {
   return (
     <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
-        <Usestate/>
-       
+       <UseStateWObject/>
     </div>
   );
 }
