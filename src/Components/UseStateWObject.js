@@ -1,5 +1,5 @@
 import React ,{useState}from 'react'
-// we learn about ... dot lesson in this file
+// we learn about ... dot lesson in this file it is also called as 'SPREAD OPERATOR'
 const UseStateWObject = () => {
 
     const [myObj,setMyObj] = useState({name:'Sumit-kumar',age:72, qualification:"5th Class Passed"})
