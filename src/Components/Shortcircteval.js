@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Shortcircteval = () => {
-    // short circuit eval is used to check the condition using operators
+    // short circuit eval is used to check the condition using operators))
     const [data, setData] = useState('Sumit')
   return (
     <div>
