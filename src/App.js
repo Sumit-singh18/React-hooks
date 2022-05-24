@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Shortcircteval from './Components/Shortcircteval';
+import UseEffect1 from './Components/UseEffect/UseEffect1';
 function App() {
   return (
     <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
-       <Shortcircteval/>
+       <UseEffect1/>
     </div>
   );
 }
