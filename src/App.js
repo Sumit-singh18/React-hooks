@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import UseEfctcleanup from './Components/UseEffect/UseEfctcleanup';
+import UseEffectApi from './Components/UseEffect/UseEffectApi';
+
+
+
+
 function App() {
   return (
     <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
-       <UseEfctcleanup/>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+       <UseEffectApi/>
     </div>
   );
 }
