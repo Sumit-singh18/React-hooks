@@ -14,8 +14,6 @@ const UseEffectApi = () => {
         getUsers();
     }, [])
 
-
-
     return (
         <div>
             <h1>  Github User</h1>
