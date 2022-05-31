@@ -20,13 +20,13 @@ const UseEffectApi = () => {
             <ul className='users'>
                 {
                     user.map((userx) => {
-                        const { id, avatar_url, html_url, login } = userx;
+                        const { id, avatar_url, login,node_id } = userx;
                         return (
                             <li key={id}>
                                 <img src={avatar_url} alt={login}/>
                                 <div>
                                     <h4>{login}</h4>
-                                    <a href={html_url}>Profile</a>
+                                    <a href={node_id}>Profile</a>
                                 </div>
                             </li>
                             )
