@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import UseEffectApi from './Components/UseEffect/UseEffectApi';
-
+import UseReff_Basic from './Components/UseRef.js/UseReff_Basic';
 
 
 
@@ -9,7 +8,7 @@ function App() {
   return (
     <div className="App">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-       <UseEffectApi/>
+       <UseReff_Basic/>
     </div>
   );
 }
