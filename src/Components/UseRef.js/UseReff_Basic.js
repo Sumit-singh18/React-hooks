@@ -13,10 +13,6 @@ const UseReff_Basic = () => {
     var vname = name.current.value;
     vname === "" ? alert('please fill your name') : setRname(true)
   }
-
-
-
-
   return (
     <>
       <div>
