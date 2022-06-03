@@ -1,11 +1,11 @@
 import './App.css';
-import UseReducr from './Components/UseReducer/UseReducr';
+import UseReducr_2 from './Components/UseReducer/UseReducr_2';
 
 
 function App() {
   return (
     <div className="App">
-       <UseReducr/>
+       <UseReducr_2/>
     </div>
   );
 }
