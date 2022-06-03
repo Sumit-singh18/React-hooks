@@ -1,22 +1,22 @@
 import React, { useReducer } from 'react'
 
-const UseReducr = () => {
-    const initialState = 0;
-    const reducer = (state, action) => {
-        switch (action.type) {
-            case 'Increment':
-                return (state + 2)
-            case 'Decrement':
-                return (state - 2)
-            default:
-                throw new Error()
-        }
 
+const initialState = 0;
+const reducer = (state, action) => {
+    switch (action.type) {
+        case 'Increment':
+            return (state + 2)
+        case 'Decrement':
+            return (state - 2)
+        default:
+            throw new Error()
     }
 
+}
+
+
+const UseReducr = () => {
     const [state, dispatch] = useReducer(reducer, initialState)
-
-
     return (
         <div>
             <h1>{state} </h1>
