@@ -21,7 +21,8 @@ const UseReff_Basic = () => {
           <input type="text" ref={name} />
           <br />
           <button>Submit Your Name</button>
-          <p>{rname ? `Your Name ${name.current.value}` : ''}</p>
+          <p>{rname ? `Your Name ${name.current.value}` : ''}
+          </p>
         </form>
       </div>
 
