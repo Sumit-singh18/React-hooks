@@ -1,11 +1,10 @@
 import './App.css';
 import React from 'react'
-import Axiosfetch from './Components/UseEffect/Axiosfetch';
-
+import DataFetch from './Components/UseEffect/DataFetch';
 function App() {
   return (
     <div className="App">
-      <Axiosfetch/>
+      <DataFetch/>
     </div>
   );
 }
