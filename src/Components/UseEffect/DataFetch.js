@@ -7,7 +7,6 @@ const DataFetch = () => {
     const [id,setId]=useState(1)
     const[idfromclick,setIdfromclick]=useState(1)
     
-
     useEffect(() => {
         axios.get(`https://jsonplaceholder.typicode.com/photos/${idfromclick}`)
         .then(response => {
@@ -17,12 +16,10 @@ const DataFetch = () => {
           console.log(error.message)
       })
     }, [idfromclick])
-    
+
     const handlevent=()=>{
         setIdfromclick(id)
     }
-
-
 
   return (
     <div>
