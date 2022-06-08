@@ -1,13 +1,11 @@
 import './App.css';
-// import UseReducr_2 from './Components/UseReducer/UseReducr_2';
-import UseReff_Basic from './Components/UseRef.js/UseReff_Basic';
-
+import React from 'react'
+import Axiosfetch from './Components/UseEffect/Axiosfetch';
 
 function App() {
   return (
     <div className="App">
-       {/* <UseReducr_2/> */}
-       <UseReff_Basic/>
+      <Axiosfetch/>
     </div>
   );
 }
