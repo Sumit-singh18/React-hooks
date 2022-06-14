@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import DataFetch from './Components/UseEffect/DataFetch';
+import Functionnclick from './Components/EventHandling/Functionnclick';
 function App() {
   return (
     <div className="App">
-      <DataFetch/>
+      <Functionnclick/>
     </div>
   );
 }
