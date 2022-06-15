@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import Functionnclick from './Components/EventHandling/Functionnclick';
+import LifeCycle1 from './Components/LifeCycleMethod/LifeCycle1';
 function App() {
   return (
-    <div className="App">
-      <Functionnclick/>
+    <div>
+      <LifeCycle1/>
     </div>
   );
 }
