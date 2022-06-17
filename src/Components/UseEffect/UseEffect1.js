@@ -5,8 +5,6 @@ const UseEffect1 = () => {
 const [count, setCount] = useState(0)
 
 useEffect(() => {
-
-
     console.log('Hello Useeffect')
     document.title=`you click (${count})`
   

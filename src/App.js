@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import LifeCycle1 from './Components/LifeCycleMethod/LifeCycle1';
+import CompoDidMount from './Components/LifeCycleMethod/CompoDidMount';
 function App() {
   return (
     <div>
-      <LifeCycle1/>
+      <CompoDidMount/>
     </div>
   );
 }
