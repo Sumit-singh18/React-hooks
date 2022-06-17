@@ -13,9 +13,11 @@ const Axiosfetch = () => {
             console.log(error.message)
          })
       }, [])
+      
 
   return (
     <div>
+        <h1> {React.version}</h1>
         <h1>Axios api fetch with Useeffect</h1>
         {
             post.map((posts)=>{

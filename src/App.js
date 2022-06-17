@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import CompoDidMount from './Components/LifeCycleMethod/CompoDidMount';
+import Axiosfetch from './Components/UseEffect/Axiosfetch';
 function App() {
   return (
     <div>
-      <CompoDidMount/>
+      <Axiosfetch/>
     </div>
   );
 }
