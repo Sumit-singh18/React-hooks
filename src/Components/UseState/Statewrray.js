@@ -12,8 +12,8 @@ const Statewrray = () => {
   };
 
   return (
-    <div>
-      Use State With Array
+    <div style={{textAlign:'center' }}>
+     <h1>Use State With Array</h1> 
       <button onClick={Add}>Add Random Number</button>
       <ul>
         {numb.map(item =>(<li key={item.value}>{item.value}</li>))}
