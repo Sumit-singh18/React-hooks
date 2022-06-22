@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import Axiosfetch from './Components/UseEffect/Axiosfetch';
+import UseStateSpreadop from './Components/UseState/UseStateSpreadop';
 function App() {
   return (
     <div>
-      <Axiosfetch/>
+      <UseStateSpreadop/>
     </div>
   );
 }
