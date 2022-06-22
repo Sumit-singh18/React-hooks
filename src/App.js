@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import UseStateSpreadop from './Components/UseState/UseStateSpreadop';
+import Statewrray from './Components/UseState/Statewrray';
 function App() {
   return (
     <div>
-      <UseStateSpreadop/>
+      <Statewrray/>
     </div>
   );
 }
