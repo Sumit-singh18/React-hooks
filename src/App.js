@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
-import Statewrray from './Components/UseState/Statewrray';
+import UseEfctcleanup from './Components/UseEffect/UseEfctcleanup'
 function App() {
   return (
     <div>
-      <Statewrray/>
+      <UseEfctcleanup/>
     </div>
   );
 }
