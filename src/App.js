@@ -1,10 +1,16 @@
 import './App.css';
 import React from 'react'
-import UseEfctcleanup from './Components/UseEffect/UseEfctcleanup'
+import About from './Components/ReactContext/About';
+import DataState from './Components/ReactContext/DataState';
+
+
 function App() {
   return (
     <div>
-      <UseEfctcleanup/>
+      <DataState>
+      <About/>
+      </DataState>
+      
     </div>
   );
 }
