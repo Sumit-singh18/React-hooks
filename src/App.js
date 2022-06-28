@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react'
-import About from './Components/ReactContext/About';
-import DataState from './Components/ReactContext/DataState';
+import ChildProps from './Components/PropsandChild.js/ChildProps';
 
 
 function App() {
   return (
     <div>
-      <DataState>
+      {/* <DataState>
       <About/>
-      </DataState>
+      </DataState> */}
+      <ChildProps/>
       
     </div>
   );
