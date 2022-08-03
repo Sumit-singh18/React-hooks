@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react'
-import ChildProps from './Components/PropsandChild.js/ChildProps';
+// import ChildProps from './Components/PropsandChild.js/ChildProps';
+import Apps from './Components/React-Redux/Apps';
+
 
 
 function App() {
@@ -8,9 +10,9 @@ function App() {
     <div>
       {/* <DataState>
       <About/>
-      </DataState> */}
-      <ChildProps/>
-      
+      </DataState> 
+      <ChildProps/> */}
+     <Apps/>
     </div>
   );
 }
